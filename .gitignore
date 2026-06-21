@@ -12,6 +12,9 @@ publish/
 # Installer output
 installer/Output/
 
+# FFmpeg binary (download separately — see README)
+**/ffmpeg/ffmpeg.exe
+
 # OS
 Thumbs.db
 .DS_Store

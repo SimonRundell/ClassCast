@@ -64,10 +64,11 @@ ports to open manually.
 
 ## FFmpeg
 
-The Teacher Server uses a bundled **FFmpeg** binary to encode its screen to MJPEG.
+The Teacher Server uses **FFmpeg** to encode its screen to MJPEG.
 The Student Client does **not** require FFmpeg (it decodes JPEG frames natively).
 
-A copy of `ffmpeg.exe` is expected at:
+**FFmpeg is not included in this repository** as it is a widely available binary.
+A copy of `ffmpeg.exe` must be placed at:
 
 ```
 ClassCast.Teacher/ffmpeg/ffmpeg.exe
