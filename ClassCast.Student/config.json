@@ -1,0 +1,5 @@
+{
+  "udpDiscoveryPort":  45678,
+  "tcpControlPort":    45679,
+  "tcpBroadcastPort":  45680
+}

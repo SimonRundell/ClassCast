@@ -1,0 +1,14 @@
+{
+  "adDomain":          "SCHOOL",
+  "adTeacherGroup":    "ClassCast-Teachers",
+  "udpDiscoveryPort":  45678,
+  "tcpControlPort":    45679,
+  "tcpBroadcastPort":  45680,
+  "broadcastWidth":    854,
+  "broadcastHeight":   480,
+  "broadcastFps":      15,
+  "thumbnailFps":      1,
+  "thumbnailWidth":    320,
+  "thumbnailHeight":   180,
+  "ffmpegPath":        "ffmpeg\\ffmpeg.exe"
+}

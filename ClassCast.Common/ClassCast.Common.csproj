@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.DirectoryServices.AccountManagement" Version="8.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- Shared application icon, embedded so forms and the tray can load it at runtime. -->
+    <EmbeddedResource Include="..\assets\classcast.ico" LogicalName="ClassCast.Common.classcast.ico" />
+  </ItemGroup>
+
+</Project>
